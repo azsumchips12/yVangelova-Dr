@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Д-р Йоана Вангелова</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="proekt.css">
 </head>
 <body>
   <header>
@@ -19,7 +19,7 @@
   <main>
     <section id="about" class="card">
       <h2>За мен</h2>
-      <div class="photo-placeholder">Снимка братле.</div>
+      <img src="an.jpg" class="photo">
       <p>Аз съм Д-р Йоана Вангелова, специалист в областта на медицината. Имам опит в диагностиката, лечението и превенцията на различни заболявания. Работя с внимание и грижа към всеки пациент.</p>
     </section>
 
@@ -34,10 +34,23 @@
 
     <section id="contact" class="card">
       <h2>Контакти</h2>
-      <div class="photo-placeholder">Тук ще има карта или снимка на кабинета</div>
-      <p>Телефон: <a href="tel:+0876004859">+359 XX XXX XXXX</a></p>
-      <p>Email: <a href="mailto:yoana.vangelova@example.com">yoana.vangelova@например.com</a></p>
-      <p>Адрес: Варна</p>
+
+      <!-- Карта за адреса -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.019392083087!2d27.915228776457234!3d43.21399787113243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a453ef18346f5d%3A0xd2a2ff6e5f19f5f2!2sul.%20%22Seliolu%22%201%2C%209002%20Varna%20Center%2C%20Varna!5e0!3m2!1sbg!2sbg!4v1690001111111!5m2!1sbg!2sbg" 
+          width="100%" 
+          height="300" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <p>Телефон: <a href="tel:+359876004859">+359 876 004 859</a></p>
+      <p>Email: <a href="mailto:ydvangelova@gmail.com">ydvangelova@gmail.com</a></p>
+      <p>Адрес: Варна Център Приморски, ул. „Селиолу“ 1, 9002 Варна</p>
     </section>
   </main>
 
@@ -46,4 +59,3 @@
   </footer>
 </body>
 </html>
-
