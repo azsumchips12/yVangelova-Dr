@@ -124,3 +124,9 @@ footer {
   left: 180px;
 }
 
+@media (max-width: 600px) {
+  .photo {
+    position: relative;
+    left: 0px; 
+  }
+}
